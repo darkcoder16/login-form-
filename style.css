@@ -1,0 +1,138 @@
+body {
+    display : flex ;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("blue.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    background : transparent;
+    color : white ;
+    height: 380px;
+    width: 305px;
+    border :2px solid rgba(255, 255 ,255 ,0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0 , 0 ,0 ,0.2);
+    border-radius: 10px; 
+}
+
+h1 {
+    font-family: arial ;
+    text-align: center;
+
+}
+
+#username {
+    
+    margin-bottom  : 0px; 
+    margin-left: 40px;
+}
+ #enter {
+    color: white ;
+    background: transparent ;
+    height: 30px ;
+    width: 160px;
+    border-radius: 40px;
+    padding-right: 70px ;
+    margin-bottom : 20px ;
+    margin-left : 35px; 
+    border :2px solid rgba(255, 255 ,255 ,0.1);
+    outline: none ;
+    font-size: 13px;
+    padding : 
+ }
+#pw {
+      margin-left: 40px;
+      margin-bottom : 0px ;
+}
+ #pass {
+    color:aliceblue;
+    background: transparent;
+    border-radius: 40px;
+    height: 30px ;
+    width: 160px;
+    padding-right: 70px ;
+    border : transparent ; 
+    margin-bottom : 10px ;
+    margin-left : 35px; 
+    border :2px solid rgba(255, 255 ,255 ,0.1);
+    outline :none ;
+
+ }
+
+ #rem1 {
+    padding-top: 8%;
+    width: 10px;
+    height: 12px;
+    font-size: 12px;
+    padding-top : 0px ;
+    margin-left: 35px;
+    border :1px solid rgba(255, 255 ,255 ,0.1);
+}
+
+#rem1:hover {
+    color : darkcyan;
+    text-decoration: underline;
+    background: var(--clr);
+    box-shadow: 0 0 30px var(--clr);
+}
+
+#forget {
+    color :aliceblue ;
+    font-size: 15px;
+    padding-left: 13px;
+}
+
+#forget:hover {
+    color : darkblue;
+    text-decoration: underline;
+}
+
+
+button {
+    
+    box-shadow: 0 0 10px rgba(0 0 0 0.1);
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left : 68px ;
+    border-radius : 20px ; 
+    padding : 4px 60px 4px 60px ;
+    cursor: pointer;
+    font-weight: 600;
+    border :2px solid rgba(255, 255 ,255 ,0.1);
+    transition : all 0.5s ; 
+
+}
+
+p{
+    margin-top : 20px ; 
+    margin-left : 49px ;
+}
+
+a {
+    font-weight: 600;
+    color : white ;
+    text-decoration: none ;
+}
+ 
+a:hover {
+    color : darkblue;
+    text-decoration: underline;
+}
+
+button:hover {
+    background: var(--clr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+/* button:before {
+    content : ' ' ;
+    position : absolute ;
+    inset: 2px;
+    background: darkcyan;
+} */
